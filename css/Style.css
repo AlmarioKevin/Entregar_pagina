@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#titulo {
+    font-family: fantasy;
+}
+
+nav {
+    display: none;
+}
+
+#menu-hamburguesa {
+    height: 30px;
+    width: 30px;
+}
+
+.section1 {
+    width: 100%;
+    height: 40vh;
+}
+
+#Img-paisaje {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagen-contenedor {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    color: white;
+    z-index: 1;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.section2 {
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.articles3 {
+    height: 80%;
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+}
+
+.Img-cajas {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boton-a-img {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-style: unset;
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.section3 {
+    height: 70vh;
+    background-color: beige;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img4 {
+    height: 210px;
+    width: 280px;
+    display: block;
+
+}
+
+.container-parrafo {
+    width: 280px;
+    height: auto;
+}
+
+.p-img {
+    color: #000000;
+    font-family: fantasy;
+    font-size: 17px;
+    text-align: justify;
+}
+
+#a-ig {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+
+.cajas4-1 {
+    height: 20%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cajas4-2 {
+    height: 60%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.articlephoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+#sigueme {
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+#itigram {
+    height: 50px;
+    width: 50px;
+}
+
+.img-ig {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-h {
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article-3 {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-habilidades {
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.section-h2 {
+    display: none;
+}
+
+.section-metas {
+    height: 100vh;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cajas-metas {
+    height: 100%;
+    width: 100%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parrafo-metas {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.section4 {
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-contact {
+    height: 30vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contacts-art {
+    height: 70%;
+    width: 30%;
+}
+
+.box-contact {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos-contacts {
+    height: 50px;
+    width: 50px;
+}
+
+.te-co {
+    font-size: 20px;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(132, 171, 238);
+}
+
+.footer-letra {
+    text-align: center;
+    font-size: 10px;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+@media (min-width: 769px) {
+    nav {
+        display: flex;
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .a-lista {
+        color: #000000;
+        margin-right: 30px;
+        text-decoration: none;
+        font-family: fantasy;
+    }
+
+    #menu-hamburguesa {
+        display: none;
+    }
+
+    .section1 {
+        height: 80vh;
+        background-color: beige;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .imagen-contenedor {
+        padding: 50px;
+        height: 70%;
+        width: 70%;
+    }
+
+    .texto-encima {
+        display: none;
+    }
+
+    .section2 {
+        height: 70vh;
+    }
+
+    .boton-a-img {
+        font-size: 20px;
+    }
+
+    .section3 {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #img4 {
+        height: 350px;
+        width: 480px;
+        display: block;
+    }
+
+    .container-parrafo {
+        width: 480px;
+        height: 350px;
+    }
+
+    .p-img {
+        font-size: 30px;
+    }
+
+    .section-metas {
+        height: 90vh;
+        gap: 40px;
+        padding: 40px;
+    }
+
+    .parrafo-metas {
+        padding: 30px;
+    }
+
+    .section4 {
+        flex-direction: row;
+        justify-content: baseline;
+    }
+
+    .cajas4-2 {
+        width: 30%;
+    }
+
+    .cajas4-1 {
+        width: 30%;
+    }
+
+
+}
