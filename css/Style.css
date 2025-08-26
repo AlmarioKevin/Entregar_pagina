@@ -57,21 +57,22 @@ nav {
 
 
 .section2 {
-    height: 50vh;
+    height: auto;
     background-color: rgb(255, 255, 255);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 20px 0;
 }
 
 .articles3 {
-    height: 80%;
-    width: 30%;
+    height: 250px;
+    width: 200px;
     position: relative;
     overflow: hidden;
-    display: flex;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .Img-cajas {
@@ -174,7 +175,7 @@ nav {
 }
 
 .section-h {
-    height: 50vh;
+    height: auto;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -188,6 +189,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 5px;
 }
 
 .p-habilidades {
@@ -196,24 +198,19 @@ nav {
     text-align: center;
 }
 
-.section-h2 {
-    display: none;
-}
-
 .section-metas {
-    height: 100vh;
+    height: auto;
     background-color: beige;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr fr;
-    gap: 10px;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
 }
 
 .cajas-metas {
-    height: 100%;
+    margin-bottom: 15px;
+    height: 25%;
     width: 100%;
-    border: solid black 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,7 +331,11 @@ footer {
     }
 
     .section2 {
-        height: 70vh;
+        flex-direction: row;
+    }
+    .articles3 {
+        height: 80%;
+        width: 30%;
     }
 
     .boton-a-img {
@@ -343,6 +344,7 @@ footer {
 
     .section3 {
         flex-direction: row;
+        height: 90vh;
         justify-content: space-around;
     }
 
@@ -362,7 +364,8 @@ footer {
     }
 
     .section-metas {
-        height: 90vh;
+        height: auto;
+        flex-direction: row;
         gap: 40px;
         padding: 40px;
     }
@@ -384,5 +387,7 @@ footer {
         width: 30%;
     }
 
-
+    .section-h{
+        height: 50vh;
+    }
 }
