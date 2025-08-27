@@ -27,7 +27,7 @@ nav {
 
 .section1 {
     width: 100%;
-    height: 40vh;
+    height: auto;
 }
 
 #Img-paisaje {
@@ -300,6 +300,8 @@ footer {
         padding: 0;
         margin: 0;
     }
+
+
 
     .a-lista {
         color: #000000;
